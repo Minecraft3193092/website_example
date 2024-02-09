@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Default background color for light mode */
+    color: #000; /* Default text color for light mode */
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background-color: #000; /* Background color for dark mode */
+    color: #fff; /* Text color for dark mode */
+}
+
+header {
+    background-color: #000; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button#theme-toggle {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
